@@ -22,6 +22,10 @@ class Hello{
         int num2=0x7E;
         System.out.println(num2);
 
+        char c='a';
+        c++;
+        System.out.println(c);
+
 
     }
 }
