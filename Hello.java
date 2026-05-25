@@ -5,5 +5,7 @@ class Hello{
         int num1=56;
 
         System.out.println(num+num1);
+        System.out.println(num);
+        System.out.println(num1);
     }
 }
