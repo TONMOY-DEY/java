@@ -3,6 +3,10 @@ public class type {
         int a=257;
         byte k=(byte)a;
          System.out.println(k);
+
+         int b=123;
+         byte u=(byte)b;
+         System.out.println(u);
         
     }
     
