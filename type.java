@@ -2,7 +2,7 @@ public class type {
     public static void main(String[] args) {
         int a=257;
         byte k=(byte)a;
-         System.out.println(k);
+        System.out.println(k);
 
          int b=123;
          byte u=(byte)b;
@@ -28,7 +28,14 @@ public class type {
          boolean result3 = g != h;
          System.out.println(result3);
 
-         
+         int b1=54;
+         int n=54;
+          boolean result5=b1==n;
+          System.out.println(result5);
+
+
+        
+
     }
     
 }
