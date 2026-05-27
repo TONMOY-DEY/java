@@ -16,6 +16,14 @@ public class type {
          int  result=x*y;
          System.out.println(result);
 
+         int p=9;
+         int q=6;
+
+         boolean result2 = p<q;
+         System.out.println(result2);
+
+
+
         
     }
     
