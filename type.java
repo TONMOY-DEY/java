@@ -22,9 +22,13 @@ public class type {
          boolean result2 = p<q;
          System.out.println(result2);
 
+         int g=36;
+         int h=35;
 
+         boolean result3 = g != h;
+         System.out.println(result3);
 
-        
+         
     }
     
 }
