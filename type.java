@@ -33,6 +33,15 @@ public class type {
           boolean result5=b1==n;
           System.out.println(result5);
 
+          int x2=7;
+          int y2=8;
+
+            boolean result56=x2<y2;
+            System.out.println(!result56);
+
+            
+
+
 
         
 
