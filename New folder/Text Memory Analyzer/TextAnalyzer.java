@@ -14,7 +14,7 @@ public class TextAnalyzer {
         if(text.isEmpty())
             return 0;
 
-        return text.split("\\s+").length;
+        return text.split("s+").length;
     }
 
     public int getCharacterCount() {
@@ -24,12 +24,12 @@ public class TextAnalyzer {
 
     public int getCharacterWithoutSpace() {
 
-        return text.replaceAll("\\s+","").length();
+        return text.replaceAll("s+","").length();
     }
 
     public String getLongestWord() {
 
-        String words[] = text.split("\\s+");
+        String words[] = text.split("s+");
 
         String longest = "";
 
@@ -44,7 +44,7 @@ public class TextAnalyzer {
 
     public double getAverageLength(){
 
-        String words[] = text.split("\\s+");
+        String words[] = text.split("s+");
 
         int total = 0;
 
@@ -61,7 +61,7 @@ public class TextAnalyzer {
 
     public List<String> getLongestThreeWords(){
 
-        String words[] = text.split("\\s+");
+        String words[] = text.split("s+");
 
         List<String> list = new ArrayList<>(Arrays.asList(words));
 
